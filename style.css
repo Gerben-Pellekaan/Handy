@@ -1,0 +1,373 @@
+body{
+    font-family: 'Archivo', sans-serif;
+    margin: 0;
+}
+
+img.logo{
+    margin-top: 15px;
+    margin-left: 310px;
+}
+div.top{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+nav{
+    margin: 0 auto;
+    background-color: #222931;
+    width: 950px;
+}
+
+nav > ul{
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav > ul > li{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: 500px;
+    margin-right: 25px;
+    padding: 15px;
+}
+
+li:hover, #infodrop > p:hover{
+    background-color: #ffe718;
+    color: #222931;
+    cursor: pointer;
+}
+
+#infodrop{
+    display: none;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #222931;
+    min-width: 150px;
+}
+
+#info:hover #infodrop{
+    color: #ffffff;
+    display: block;
+}
+
+i.fa-sort-down{
+    position: relative;
+    left: 10px;
+    bottom: 2px;
+}
+
+/*einde menu begin header */
+
+#header{
+    position: absolute;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    height: 575px;
+    margin-top: 45px;
+}
+div.banner{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 500px;
+}
+#banners{
+    margin: auto;
+    max-width: 950px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+div.overlay{
+    opacity: 0%;
+    transition: .5s ease;
+    background-color: #222931;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.overlaytext{
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+#banner1:hover .overlay{
+    opacity: 80%;
+}
+
+#banner2:hover .overlay{
+    opacity: 80%;
+}
+
+#banner3:hover .overlay{
+    opacity: 80%;
+}
+
+#banner1{
+    width: 300px;
+    height: 220px;
+    background-image: url("../img/banner-1.jpg");
+}
+
+#banner2{
+    width: 300px;
+    height: 220px;
+    background-image: url("../img/banner-2.jpg");
+}
+
+#banner3{
+    width: 300px;
+    height: 220px;
+    background-image: url("../img/banner-3.jpg");
+}
+/*einde banners begin midden */
+div.midden{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#midden_sub{
+    display: inline-block;
+    background-color: #ffe718;
+    height: 150px;
+    width: 100%;
+}
+
+p.ribbontext{
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 150px;
+    padding-top: 25px;
+}
+
+span.werken{
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+span.meer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ffffff;
+    margin-left: 500px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+span.meer:hover{
+    background-color: #222931;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* einde ribbon begin footer */
+
+div.footer{
+    background-image: url("../img/footer.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    height: 413px;
+    margin-top: 1150px;
+}
+
+div.knoppenfooter{
+    position: relative;
+    float: left;
+    width: 100%;
+    bottom: 50px;
+}
+
+#knoppen{
+    margin: 0 auto;
+    max-width: 950px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 25px;
+}
+
+.knop1, .knop2, .knop3{
+    width: 300px;
+    height: 100px;
+    background-color: #ffe718;
+}
+
+h1.deals, h1.diensten, h1.contact{
+    position: relative;
+    bottom: 20px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h2.dealstext, h2.dienstentext, h2.contacttext{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h2.dealstext{
+    position: relative;
+    bottom: 40px;
+    left: 129px;
+}
+
+h2.dienstentext, h2.contacttext{
+    position: relative;
+    left: 110px;
+    bottom: 40px;
+}
+
+
+.fa-handshake, .fa-toolbox, .fa-paper-plane{
+    padding: 15px;
+    font-size: 75px;
+}
+
+div.knop1:hover, div.knop2:hover, div.knop3:hover{
+    color: #ffffff;
+    background-color: #222931;
+    cursor: pointer;
+}
+
+/*einde knoppen begin footer*/
+
+div.einde{
+    display: grid;
+    grid-template-columns: 550px 150px 200px;
+    margin: 0 auto;
+    width: 950px;
+    border-top: #aeb6be solid 3px;
+    margin-top: 100px;
+}
+
+div.over_ons{
+    margin-top: 50px;
+    grid-column: 1;
+}
+
+h1.overons{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p.overonstext{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+div.contact{
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 70px;
+    grid-column: 3;
+}
+
+h1.contact{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+ul.contacteer{
+    list-style-type: none;
+}
+
+ul.contacteer > li{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+i.fa-map-marked-alt, i.fa-phone, i.fa-envelope{
+    position: relative;
+    right: 35px;
+    top: 5px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+div.footereinde{
+    color: #ffffff;
+    text-align: center;
+    background-color: #222931;
+    height: 50px;
+}
+
+p.footertext{
+    padding-top: 20px;
+    padding-left: 900px;
+}
+
+/*tekst pagina*/
+
+div.midden2{
+    position: relative;
+    top: 1075px;
+}
+
+div.text{
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    top: 600px;
+}
+
+p.slider{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h1.dienstenkop{
+    margin-top: 50px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.nieuwbouw, .advies, .regelgeving{
+    color: #ffe718;
+    position: relative;
+    display: inline-block;
+}
+
+.nieuwbouw-content, .advies-content, .regelgeving-content{
+    color: #ffffff;
+    display: none;
+    position: absolute;
+    background-color: #aeb6be;
+    min-width: 300px;
+    min-height: 100px;
+    z-index: 1;
+}
+
+.nieuwbouw:hover .nieuwbouw-content{
+    display: block;
+}
+
+.advies:hover .advies-content{
+    display: block;
+}
+
+.regelgeving:hover .regelgeving-content{
+    display: block;
+}
+
+p.dropdowncontent{
+    font-size: 12px;
+    font-weight: 400;
+}
